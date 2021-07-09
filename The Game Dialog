@@ -1,0 +1,2 @@
+game.setDialogTextColor(8)
+game.showLongText("WELCOME TO ROBLOX!", DialogLayout.Bottom)
