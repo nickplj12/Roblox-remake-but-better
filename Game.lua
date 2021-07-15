@@ -5,13 +5,8 @@ local function makeGame()
     print("lol")
   end
 
-  local gui = Instance.new("ScreenGui")
-  local text = Instance.new("TextLabel")
-  
-  gui.Parent = game.StarterGui
-  
-  text.Parent = game.StarterGui.ScreenGui
-  
+  local gui = Instance.new("ScreenGui", game.StarterGui)
+  local text = Instance.new("TextLabel", game.StarterGui.ScreenGui)
   text.Text = "the game"
 end
 
